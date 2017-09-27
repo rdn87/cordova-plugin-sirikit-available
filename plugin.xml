@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cordova-plugin-sirikit-available"
+        version="0.0.1">
+    <name>SiriKitPermission</name>
+    <description>SiriKitPermission Plugin for iOS</description>
+    <author>Giulio Caruso aka rdn</author>
+    <license>MIT License</license>
+    <keywords>cordova, ios, plugin, SiriKit, app, plugins, plugin, apache, cordova plugin, siri, kit</keywords>
+    <repo>https://github.com/rdn87/cordova-plugin-sirikit-available</repo>
+    
+    <!-- Preference Variable -->
+    <preference name="SIRI_DESC" />
+    <!-- JS Module -->
+    <js-module src="www/sirikitpermission.js" name="SiriKitPermission">
+        <clobbers target="cordova.plugins.sirikitpermission" />
+    </js-module>
+    <!-- iOS -->
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="SiriKitPermission">
+                <param name="ios-package" value="CDVSiriKitPermission"/>
+            </feature>
+        </config-file>
+        <header-file src="src/ios/CDVSiriKitPermission.h" />
+        <source-file src="src/ios/CDVSiriKitPermission.m" />       
+    </platform>
+    <!-- iOS Plist Param -->
+    <config-file target="*-Info.plist" parent="NSSiriUsageDescription">
+            <string>$SIRI_DESC</string>
+    </config-file>
+</plugin>

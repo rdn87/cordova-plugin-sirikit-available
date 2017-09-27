@@ -1,0 +1,34 @@
+{
+	"name": "cordova-plugin-sirikit-available",
+	"version": "0.0.1",
+	"description": "SiriKitPermission Plugin for iOS",
+	"main": "sirikitpermission.js",
+	"scripts": {
+		"test": ""
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/rdn87/cordova-plugin-sirikit-available.git"
+	},
+	"keywords": [
+		"app",
+		"ios",
+		"cordova",
+		"wrapper",
+		"plugin",
+		"siri",
+		"giulio",
+		"caruso",
+		"giulio caruso",
+		"siri kit",
+		"permission",
+		"auth",
+		"authentication"
+	],
+	"author": "Giulio Caruso aka rdn",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/rdn87/cordova-plugin-sirikit-available/issues"
+	},
+	"homepage": "https://github.com/rdn87/cordova-plugin-sirikit-available#readme"
+}
