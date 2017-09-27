@@ -15,7 +15,7 @@ Use the Cordova CLI and type in the following command:
 
 ## Description
 
-With this plug-in you can execute the native method `requestSiriAuthorization` for Permission use *SiriKit*.
+With this plug-in you can execute the native method `requestSiriAuthorization` for use *SiriKit*.
 
 ## Sample Code
 
