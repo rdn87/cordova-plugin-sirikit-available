@@ -1,6 +1,6 @@
 # cordova-plugin-sirikit-available
 
-SiriKit Permission Cordova Plugin for iOS
+SiriKit Permission **Cordova Plugin for iOS**
 
 Author: [Giulio Caruso aka rdn](https://twitter.com/giuliordn87)
 
@@ -23,7 +23,7 @@ The Plugin is only iOS Platform required iOS 10.0+.
 
 ### Execute requestPermission method in your Javascript
 
-    cordova.plugins.requestPermission(function(response) {
+    cordova.plugins.SiriKitPermission.requestPermission(function(response) {
         // success function
     }, function() {
         // failed function
