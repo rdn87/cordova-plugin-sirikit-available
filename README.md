@@ -11,7 +11,7 @@ Author: [Giulio Caruso aka rdn](https://twitter.com/giuliordn87)
 
 Use the Cordova CLI and type in the following command:
 
-`cordova plugin add https://github.com/rdn87/cordova-plugin-sirikit-available`
+`cordova plugin add https://github.com/rdn87/cordova-plugin-sirikit-available --variable SIRI_DESC=SiriKit Use`
 
 ## Description
 
